@@ -1,0 +1,41 @@
+.error__form {
+  color: red;
+  font-size: 14px;
+
+}
+
+.error__form>p {
+  margin: 5px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 40px);
+  margin: 0 20px;
+}
+
+.input {
+  width: 100%;
+  border-radius: 24px;
+  border: 1px solid rgb(84, 84, 87);
+  outline: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+  caret-color: #FEBA0C;
+  resize: vertical;
+}
+
+.forms_btn {
+  padding: 14px 14px;
+  margin: 10px;
+  border-radius: 30px;
+  color: #1A1A1A;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
